@@ -1,115 +1,546 @@
 {
   "A": [
-    {"name": "Aath", "value": 8},
-    {"name": "Aathaalees", "value": 58},
-    {"name": "Adataalees", "value": 38},
-    {"name": "Assee", "value": 80},
-    {"name": "Ashtaanunis", "value": 98},
-    {"name": "Ashtavaalees", "value": 68},
-    {"name": "Atthais", "value": 28},
-    {"name": "Atthaasaath", "value": 68},
-    {"name": "Atthaasi", "value": 78},
-    {"name": "Aathamcaalees", "value": 59}
+    {
+      "name": "Aath",
+      "value": 8,
+      "sound": "Aath",
+      "english_name": "Eight"
+    },
+    {
+      "name": "Adhasath",
+      "value": 68,
+      "sound": "Uh-rr-saath",
+      "english_name": "Sixty-eight"
+    },
+    {
+      "name": "Adtaalees",
+      "value": 48,
+      "sound": "Uh-rr-taa-lees",
+      "english_name": "Forty-eight"
+    },
+    {
+      "name": "Adtees",
+      "value": 38,
+      "sound": "Uh-rr-tees",
+      "english_name": "Thirty-eight"
+    },
+    {
+      "name": "Assi",
+      "value": 80,
+      "sound": "Uhs-see",
+      "english_name": "Eighty"
+    },
+    {
+      "name": "Athaasi",
+      "value": 88,
+      "sound": "Uh-thaa-see",
+      "english_name": "Eighty-eight"
+    },
+    {
+      "name": "Athaavan",
+      "value": 58,
+      "sound": "Uh-thaa-van",
+      "english_name": "Fifty-eight"
+    },
+    {
+      "name": "Athaavanve",
+      "value": 98,
+      "sound": "Uh-thaa-nav-ay",
+      "english_name": "Ninety-eight"
+    },
+    {
+      "name": "Atharah",
+      "value": 18,
+      "sound": "Uh-thaa-rah",
+      "english_name": "Eighteen"
+    },
+    {
+      "name": "Athhattar",
+      "value": 78,
+      "sound": "Uh-tha-ha-ttar",
+      "english_name": "Seventy-eight"
+    },
+    {
+      "name": "Attaaees",
+      "value": 28,
+      "sound": "Uht-thaa-is",
+      "english_name": "Twenty-eight"
+    }
   ],
   "B": [
-    {"name": "Baarah", "value": 12},
-    {"name": "Baalees", "value": 42},
-    {"name": "Baattar", "value": 72},
-    {"name": "Baavaalees", "value": 52},
-    {"name": "Baees", "value": 22},
-    {"name": "Baataalees", "value": 32},
-    {"name": "Baavancaalees", "value": 77},
-    {"name": "Bayyaasi", "value": 82},
-    {"name": "Bees", "value": 20}
+    {
+      "name": "Baais",
+      "value": 22,
+      "sound": "Baa-is",
+      "english_name": "Twenty-two"
+    },
+    {
+      "name": "Baanave",
+      "value": 92,
+      "sound": "Baa-nav-ay",
+      "english_name": "Ninety-two"
+    },
+    {
+      "name": "Baarah",
+      "value": 12,
+      "sound": "Baa-rah",
+      "english_name": "Twelve"
+    },
+    {
+      "name": "Baasaath",
+      "value": 62,
+      "sound": "Baa-saath",
+      "english_name": "Sixty-two"
+    },
+    {
+      "name": "Baavan",
+      "value": 52,
+      "sound": "Baa-van",
+      "english_name": "Fifty-two"
+    },
+    {
+      "name": "Bahattar",
+      "value": 72,
+      "sound": "Ba-ha-ttar",
+      "english_name": "Seventy-two"
+    },
+    {
+      "name": "Battis",
+      "value": 32,
+      "sound": "Bat-teees",
+      "english_name": "Thirty-two"
+    },
+    {
+      "name": "Bayaalees",
+      "value": 42,
+      "sound": "Ba-ya-lees",
+      "english_name": "Forty-two"
+    },
+    {
+      "name": "Bayaasi",
+      "value": 82,
+      "sound": "Ba-ya-see",
+      "english_name": "Eighty-two"
+    },
+    {
+      "name": "Bees",
+      "value": 20,
+      "sound": "Bees",
+      "english_name": "Twenty"
+    }
   ],
   "C": [
-    {"name": "Chalees", "value": 40},
-    {"name": "Chaubees", "value": 24},
-    {"name": "Chauhattar", "value": 74},
-    {"name": "Chauaalees", "value": 46},
-    {"name": "Chauvaalees", "value": 44},
-    {"name": "Chauvancaalees", "value": 54},
-    {"name": "Chaurasi", "value": 84},
-    {"name": "Chauranunis", "value": 94},
-    {"name": "Chhah", "value": 6},
-    {"name": "Chhiyaanunis", "value": 96},
-    {"name": "Chhiyaasi", "value": 86},
-    {"name": "Chhiyaasaath", "value": 66},
-    {"name": "Chhiyaalees", "value": 36},
-    {"name": "Chhapaancaalees", "value": 55},
-    {"name": "Chhataalees", "value": 56},
-    {"name": "Chhiaataalees", "value": 57},
-    {"name": "Chhappan", "value": 56},
-    {"name": "Chhappaanch", "value": 37},
-    {"name": "Chhaataalees", "value": 57}
+    {
+      "name": "Chaal...",
+      "value": 40,
+      "sound": "Cha-liis",
+      "english_name": "Forty"
+    },
+    {
+      "name": "Chaar",
+      "value": 4,
+      "sound": "Chaar",
+      "english_name": "Four"
+    },
+    {
+      "name": "Chauban",
+      "value": 54,
+      "sound": "Chau-van",
+      "english_name": "Fifty-four"
+    },
+    {
+      "name": "Chaubees",
+      "value": 24,
+      "sound": "Chau-bees",
+      "english_name": "Twenty-four"
+    },
+    {
+      "name": "Chaudah",
+      "value": 14,
+      "sound": "Chau-dah",
+      "english_name": "Fourteen"
+    },
+    {
+      "name": "Chauhattar",
+      "value": 74,
+      "sound": "Chau-ha-ttar",
+      "english_name": "Seventy-four"
+    },
+    {
+      "name": "Chaunsath",
+      "value": 64,
+      "sound": "Chaun-saath",
+      "english_name": "Sixty-four"
+    },
+    {
+      "name": "Chauntis",
+      "value": 34,
+      "sound": "Chau-ntees",
+      "english_name": "Thirty-four"
+    },
+    {
+      "name": "Chauraanave",
+      "value": 94,
+      "sound": "Chau-raa-nav-ay",
+      "english_name": "Ninety-four"
+    },
+    {
+      "name": "Chauureesi",
+      "value": 84,
+      "sound": "Chau-raa-see",
+      "english_name": "Eighty-four"
+    },
+    {
+      "name": "Chauvaalees",
+      "value": 44,
+      "sound": "Chau-va-lees",
+      "english_name": "Forty-four"
+    },
+    {
+      "name": "Chhabbees",
+      "value": 26,
+      "sound": "Chhab-bees",
+      "english_name": "Twenty-six"
+    },
+    {
+      "name": "Chhah",
+      "value": 6,
+      "sound": "Chhah",
+      "english_name": "Six"
+    },
+    {
+      "name": "Chhappan",
+      "value": 56,
+      "sound": "Chhup-pan",
+      "english_name": "Fifty-six"
+    },
+    {
+      "name": "Chhattis",
+      "value": 36,
+      "sound": "Chhatt-ees",
+      "english_name": "Thirty-six"
+    },
+    {
+      "name": "Chhihattar",
+      "value": 76,
+      "sound": "Chhih-ha-ttar",
+      "english_name": "Seventy-six"
+    },
+    {
+      "name": "Chiyaalees",
+      "value": 46,
+      "sound": "Chi-yaa-lees",
+      "english_name": "Forty-six"
+    },
+    {
+      "name": "Chiyaanave",
+      "value": 96,
+      "sound": "Chi-yaa-nav-ay",
+      "english_name": "Ninety-six"
+    },
+    {
+      "name": "Chiyaasath",
+      "value": 66,
+      "sound": "Chi-yaa-saath",
+      "english_name": "Sixty-six"
+    },
+    {
+      "name": "Chiyaasi",
+      "value": 86,
+      "sound": "Chi-yaa-see",
+      "english_name": "Eighty-six"
+    }
   ],
   "D": [
-    {"name": "Das", "value": 10},
-    {"name": "Do", "value": 2},
-    {"name": "Dus", "value": 10}
+    {
+      "name": "Das",
+      "value": 10,
+      "sound": "Dus",
+      "english_name": "Ten"
+    },
+    {
+      "name": "Do",
+      "value": 2,
+      "sound": "Doh",
+      "english_name": "Two"
+    }
   ],
   "E": [
-    {"name": "Ek", "value": 1},
-    {"name": "Ekataalees", "value": 31}
+    {
+      "name": "Ek",
+      "value": 1,
+      "sound": "Ehk",
+      "english_name": "One"
+    }
   ],
   "G": [
-    {"name": "Gyarah", "value": 11}
+    {
+      "name": "Gyaarah",
+      "value": 11,
+      "sound": "Gyaa-rah",
+      "english_name": "Eleven"
+    }
   ],
   "I": [
-    {"name": "Ikaalees", "value": 41},
-    {"name": "Ikattar", "value": 71},
-    {"name": "Ikavaalees", "value": 51},
-    {"name": "Ikyaasi", "value": 81}
+    {
+      "name": "Ikatees",
+      "value": 31,
+      "sound": "Ik-tees",
+      "english_name": "Thirty-one"
+    },
+    {
+      "name": "Ikhattar",
+      "value": 71,
+      "sound": "Ik-ha-ttar",
+      "english_name": "Seventy-one"
+    },
+    {
+      "name": "Ikkis",
+      "value": 21,
+      "sound": "Ik-kees",
+      "english_name": "Twenty-one"
+    },
+    {
+      "name": "Iksaath",
+      "value": 61,
+      "sound": "Ik-saath",
+      "english_name": "Sixty-one"
+    },
+    {
+      "name": "Iktaalees",
+      "value": 41,
+      "sound": "Ik-taa-lees",
+      "english_name": "Forty-one"
+    },
+    {
+      "name": "Ikyaanave",
+      "value": 91,
+      "sound": "Ik-yaa-nav-ay",
+      "english_name": "Ninety-one"
+    },
+    {
+      "name": "Ikyaasi",
+      "value": 81,
+      "sound": "Ik-yaa-see",
+      "english_name": "Eighty-one"
+    },
+    {
+      "name": "Ikyaavan",
+      "value": 51,
+      "sound": "Ik-yaa-van",
+      "english_name": "Fifty-one"
+    }
   ],
   "N": [
-    {"name": "Nau", "value": 9},
-    {"name": "Nauasi", "value": 89},
-    {"name": "Nauvan", "value": 99},
-    {"name": "Nauven", "value": 99}
+    {
+      "name": "Nabbe",
+      "value": 90,
+      "sound": "Nuhb-be",
+      "english_name": "Ninety"
+    },
+    {
+      "name": "Nau",
+      "value": 9,
+      "sound": "Nau",
+      "english_name": "Nine"
+    },
+    {
+      "name": "Navaasi",
+      "value": 89,
+      "sound": "Nuh-vaa-see",
+      "english_name": "Eighty-nine"
+    },
+    {
+      "name": "Ninyaanave",
+      "value": 99,
+      "sound": "Nin-yaa-nav-ay",
+      "english_name": "Ninety-nine"
+    }
   ],
   "P": [
-    {"name": "Paanch", "value": 5},
-    {"name": "Pandrah", "value": 15},
-    {"name": "Pachaancaalees", "value": 55},
-    {"name": "Pachaas", "value": 50},
-    {"name": "Pachis", "value": 25},
-    {"name": "Pachhattar", "value": 53},
-    {"name": "Painsaath", "value": 65},
-    {"name": "Pantaalees", "value": 58},
-    {"name": "Pentaalees", "value": 35},
-    {"name": "Pentaasaath", "value": 60},
-    {"name": "Pentaasi", "value": 61},
-    {"name": "Pichchaas", "value": 63}
+    {
+      "name": "Paainsath",
+      "value": 65,
+      "sound": "Pain-saath",
+      "english_name": "Sixty-five"
+    },
+    {
+      "name": "Paanch",
+      "value": 5,
+      "sound": "Paanch",
+      "english_name": "Five"
+    },
+    {
+      "name": "Pachaanave",
+      "value": 95,
+      "sound": "Pachaa-nav-ay",
+      "english_name": "Ninety-five"
+    },
+    {
+      "name": "Pachaas",
+      "value": 50,
+      "sound": "Pach-aas",
+      "english_name": "Fifty"
+    },
+    {
+      "name": "Pachaasi",
+      "value": 85,
+      "sound": "Pach-aa-see",
+      "english_name": "Eighty-five"
+    },
+    {
+      "name": "Pachchees",
+      "value": 25,
+      "sound": "Pach-chis",
+      "english_name": "Twenty-five"
+    },
+    {
+      "name": "Pachhattar",
+      "value": 75,
+      "sound": "Pach-ha-ttar",
+      "english_name": "Seventy-five"
+    },
+    {
+      "name": "Pachpan",
+      "value": 55,
+      "sound": "Pach-pan",
+      "english_name": "Fifty-five"
+    },
+    {
+      "name": "Paintaalees",
+      "value": 45,
+      "sound": "Pain-taa-lees",
+      "english_name": "Forty-five"
+    },
+    {
+      "name": "Paintis",
+      "value": 35,
+      "sound": "Pain-tees",
+      "english_name": "Thirty-five"
+    },
+    {
+      "name": "Pandrah",
+      "value": 15,
+      "sound": "Pan-drah",
+      "english_name": "Fifteen"
+    }
   ],
   "S": [
-    {"name": "Saat", "value": 7},
-    {"name": "Saatvaalees", "value": 67},
-    {"name": "Sattaasi", "value": 87},
-    {"name": "Sattaasaath", "value": 67},
-    {"name": "Sattar", "value": 70},
-    {"name": "Sattavaalees", "value": 67},
-    {"name": "Sattais", "value": 27},
-    {"name": "Satrah", "value": 17},
-    {"name": "Satavalees", "value": 47},
-    {"name": "Solah", "value": 16}
+    {
+      "name": "Saat",
+      "value": 7,
+      "sound": "Saat",
+      "english_name": "Seven"
+    },
+    {
+      "name": "Saath",
+      "value": 60,
+      "sound": "Saath",
+      "english_name": "Sixty"
+    },
+    {
+      "name": "Sadsath",
+      "value": 67,
+      "sound": "Suhr-saath",
+      "english_name": "Sixty-seven"
+    },
+    {
+      "name": "Saintaalees",
+      "value": 47,
+      "sound": "Sain-taa-lees",
+      "english_name": "Forty-seven"
+    },
+    {
+      "name": "Saintis",
+      "value": 37,
+      "sound": "Sain-tees",
+      "english_name": "Thirty-seven"
+    },
+    {
+      "name": "Saiya",
+      "value": 70,
+      "sound": "Sai-yaa",
+      "english_name": "Seventy"
+    },
+    {
+      "name": "Saiyavan",
+      "value": 57,
+      "sound": "Sai-yaa-van",
+      "english_name": "Fifty-seven"
+    },
+    {
+      "name": "Sarsath",
+      "value": 76,
+      "sound": "Suhr-saath",
+      "english_name": "Seventy-six"
+    },
+    {
+      "name": "Sat",
+      "value": 30,
+      "sound": "Sat",
+      "english_name": "Thirty"
+    },
+    {
+      "name": "Satattar",
+      "value": 77,
+      "sound": "Sat-ha-ttar",
+      "english_name": "Seventy-seven"
+    }
   ],
   "T": [
-    {"name": "Tees", "value": 23},
-    {"name": "Teetaalees", "value": 33},
-    {"name": "Tiranunis", "value": 93},
-    {"name": "Tisaat", "value": 83},
-    {"name": "Tisaataalees", "value": 83},
-    {"name": "Tisaattar", "value": 83},
-    {"name": "Trikaalees", "value": 43},
-    {"name": "Tripanchaalees", "value": 53},
-    {"name": "Tisaalaasee", "value": 84}
-  ],
-  "U": [
-    {"name": "Unnis", "value": 19},
-    {"name": "Unntalis", "value": 29},
-    {"name": "Unnataalees", "value": 39},
-    {"name": "Unnaasi", "value": 79},
-    {"name": "Unnavalees", "value": 49},
-    {"name": "Unnasaath", "value": 69}
+    {
+      "name": "Taintaalees",
+      "value": 43,
+      "sound": "Taihn-taa-lees",
+      "english_name": "Forty-three"
+    },
+    {
+      "name": "Taintis",
+      "value": 33,
+      "sound": "Taihn-tees",
+      "english_name": "Thirty-three"
+    },
+    {
+      "name": "Taitaalees",
+      "value": 23,
+      "sound": "Tai-taa-lees",
+      "english_name": "Twenty-three"
+    },
+    {
+      "name": "Taitis",
+      "value": 13,
+      "sound": "Tai-tees",
+      "english_name": "Thirteen"
+    },
+    {
+      "name": "Terah",
+      "value": 13,
+      "sound": "Te-raah",
+      "english_name": "Thirteen"
+    },
+    {
+      "name": "Tees",
+      "value": 30,
+      "sound": "Tees",
+      "english_name": "Thirty"
+    },
+    {
+      "name": "Tihattar",
+      "value": 73,
+      "sound": "Tih-ha-ttar",
+      "english_name": "Seventy-three"
+    },
+    {
+      "name": "Tihattis",
+      "value": 83,
+      "sound": "Tih-ha-ttees",
+      "english_name": "Eighty-three"
+    },
+    {
+      "name": "Tihattis",
+      "value": 53,
+      "sound": "Tih-ha-ttees",
+      "english_name": "Fifty-three"
+    }
   ]
 }

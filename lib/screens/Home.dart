@@ -27,43 +27,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            floating: true,
-            pinned: true,
-            snap: false,
-            centerTitle: false,
-            title: const Text('Sankhya'),
-            actions: [
-              IconButton(
-                icon: const Icon(Icons.shopping_cart),
-                onPressed: () {},
-              ),
-            ],
-            bottom: AppBar(
-              title: Container(
-                width: double.infinity,
-                height: 40,
-                color: Colors.white,
-                child: Center(
-                  child: TextField(
-                    controller: editingController,
-                    style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                      color: Colors.black
-                    ),
-                    decoration: InputDecoration(
-                        hintText: 'Search for something',
-                        prefixIcon: Icon(Icons.search),
-                        suffixIcon: Icon(Icons.camera_alt)),
-                  ),
-                ),
-              ),
-            ),
-          ),
-          // Other Sliver Widgets
-          CurrencyHomeScreen(currencyData: data),
-        ],
+      appBar: AppBar(
+        title: Text("Sankhya"),
+      ),
+      body: CurrencyHomeScreen(
+        currencyData: data,
       ),
     );
   }
@@ -91,7 +59,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-
 /*
 NestedScrollView(
 headerSliverBuilder: (ctx, innerBoxIsScrolled) {
@@ -110,4 +77,27 @@ IconButton(onPressed: () {}, icon: const Icon(Icons.shopping_cart))
 ];
 },
 body: CurrencyHomeScreen(currencyData: data),
+)*/
+
+
+//Search App bar
+
+/*
+Container(
+          width: double.infinity,
+          height: 40,
+          color: Colors.white,
+          child: Center(
+            child: TextField(
+              controller: editingController,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleSmall!
+                  .copyWith(color: Colors.black),
+              decoration: InputDecoration(
+                  hintText: 'Search for something',
+                  prefixIcon: Icon(Icons.search)),
+            ),
+          ),
+        )
 )*/

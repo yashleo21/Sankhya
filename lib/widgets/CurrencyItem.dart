@@ -14,12 +14,14 @@ class CurrencyItemWidget extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(16),
-          child: Text(
-            currencySection.header,
-            style: Theme.of(context)
-                .textTheme
-                .titleLarge!
-                .copyWith(color: Colors.white, fontSize: 50),
+          child: Center(
+            child: Text(
+              currencySection.header,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleLarge!
+                  .copyWith(color: Colors.white, fontSize: 50),
+            ),
           ),
         ),
         ...currencySection.items.map(
@@ -36,14 +38,22 @@ class CurrencyItemWidget extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      mainAxisSize: MainAxisSize.max,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Text("Propoganda"),
-                        Text("Indian English pronounciation")
-                      ],
+                    child: Expanded(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisSize: MainAxisSize.max,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            e.name,
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                          Text(
+                            e.english_name,
+                            style: Theme.of(context).textTheme.titleLarge,
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Divider(
@@ -61,7 +71,7 @@ class CurrencyItemWidget extends StatelessWidget {
                             children: [
                               Text("Sounds like"),
                               Text(
-                                "praw-puh-gan-duh",
+                                e.sound,
                                 style:
                                     Theme.of(context).textTheme.headlineSmall,
                               )
@@ -69,6 +79,7 @@ class CurrencyItemWidget extends StatelessWidget {
                           ),
                         ),
                         Container(
+                          constraints: BoxConstraints(minWidth: 70.0),
                           decoration: BoxDecoration(
                               border: Border.all(color: Colors.red),
                               borderRadius:
@@ -76,8 +87,9 @@ class CurrencyItemWidget extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(20.0),
                             child: Text(
-                              "66",
+                              e.value.toString(),
                               style: Theme.of(context).textTheme.headlineSmall,
+                              textAlign: TextAlign.center,
                             ),
                           ),
                         )
