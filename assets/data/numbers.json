@@ -1,0 +1,115 @@
+{
+  "A": [
+    {"name": "Aath", "value": 8},
+    {"name": "Aathaalees", "value": 58},
+    {"name": "Adataalees", "value": 38},
+    {"name": "Assee", "value": 80},
+    {"name": "Ashtaanunis", "value": 98},
+    {"name": "Ashtavaalees", "value": 68},
+    {"name": "Atthais", "value": 28},
+    {"name": "Atthaasaath", "value": 68},
+    {"name": "Atthaasi", "value": 78},
+    {"name": "Aathamcaalees", "value": 59}
+  ],
+  "B": [
+    {"name": "Baarah", "value": 12},
+    {"name": "Baalees", "value": 42},
+    {"name": "Baattar", "value": 72},
+    {"name": "Baavaalees", "value": 52},
+    {"name": "Baees", "value": 22},
+    {"name": "Baataalees", "value": 32},
+    {"name": "Baavancaalees", "value": 77},
+    {"name": "Bayyaasi", "value": 82},
+    {"name": "Bees", "value": 20}
+  ],
+  "C": [
+    {"name": "Chalees", "value": 40},
+    {"name": "Chaubees", "value": 24},
+    {"name": "Chauhattar", "value": 74},
+    {"name": "Chauaalees", "value": 46},
+    {"name": "Chauvaalees", "value": 44},
+    {"name": "Chauvancaalees", "value": 54},
+    {"name": "Chaurasi", "value": 84},
+    {"name": "Chauranunis", "value": 94},
+    {"name": "Chhah", "value": 6},
+    {"name": "Chhiyaanunis", "value": 96},
+    {"name": "Chhiyaasi", "value": 86},
+    {"name": "Chhiyaasaath", "value": 66},
+    {"name": "Chhiyaalees", "value": 36},
+    {"name": "Chhapaancaalees", "value": 55},
+    {"name": "Chhataalees", "value": 56},
+    {"name": "Chhiaataalees", "value": 57},
+    {"name": "Chhappan", "value": 56},
+    {"name": "Chhappaanch", "value": 37},
+    {"name": "Chhaataalees", "value": 57}
+  ],
+  "D": [
+    {"name": "Das", "value": 10},
+    {"name": "Do", "value": 2},
+    {"name": "Dus", "value": 10}
+  ],
+  "E": [
+    {"name": "Ek", "value": 1},
+    {"name": "Ekataalees", "value": 31}
+  ],
+  "G": [
+    {"name": "Gyarah", "value": 11}
+  ],
+  "I": [
+    {"name": "Ikaalees", "value": 41},
+    {"name": "Ikattar", "value": 71},
+    {"name": "Ikavaalees", "value": 51},
+    {"name": "Ikyaasi", "value": 81}
+  ],
+  "N": [
+    {"name": "Nau", "value": 9},
+    {"name": "Nauasi", "value": 89},
+    {"name": "Nauvan", "value": 99},
+    {"name": "Nauven", "value": 99}
+  ],
+  "P": [
+    {"name": "Paanch", "value": 5},
+    {"name": "Pandrah", "value": 15},
+    {"name": "Pachaancaalees", "value": 55},
+    {"name": "Pachaas", "value": 50},
+    {"name": "Pachis", "value": 25},
+    {"name": "Pachhattar", "value": 53},
+    {"name": "Painsaath", "value": 65},
+    {"name": "Pantaalees", "value": 58},
+    {"name": "Pentaalees", "value": 35},
+    {"name": "Pentaasaath", "value": 60},
+    {"name": "Pentaasi", "value": 61},
+    {"name": "Pichchaas", "value": 63}
+  ],
+  "S": [
+    {"name": "Saat", "value": 7},
+    {"name": "Saatvaalees", "value": 67},
+    {"name": "Sattaasi", "value": 87},
+    {"name": "Sattaasaath", "value": 67},
+    {"name": "Sattar", "value": 70},
+    {"name": "Sattavaalees", "value": 67},
+    {"name": "Sattais", "value": 27},
+    {"name": "Satrah", "value": 17},
+    {"name": "Satavalees", "value": 47},
+    {"name": "Solah", "value": 16}
+  ],
+  "T": [
+    {"name": "Tees", "value": 23},
+    {"name": "Teetaalees", "value": 33},
+    {"name": "Tiranunis", "value": 93},
+    {"name": "Tisaat", "value": 83},
+    {"name": "Tisaataalees", "value": 83},
+    {"name": "Tisaattar", "value": 83},
+    {"name": "Trikaalees", "value": 43},
+    {"name": "Tripanchaalees", "value": 53},
+    {"name": "Tisaalaasee", "value": 84}
+  ],
+  "U": [
+    {"name": "Unnis", "value": 19},
+    {"name": "Unntalis", "value": 29},
+    {"name": "Unnataalees", "value": 39},
+    {"name": "Unnaasi", "value": 79},
+    {"name": "Unnavalees", "value": 49},
+    {"name": "Unnasaath", "value": 69}
+  ]
+}
